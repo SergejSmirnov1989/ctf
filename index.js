@@ -16,7 +16,6 @@
 // q.name = 'PhoneTransferForm[amount]'
 //
 (function () {
-    console.log(123);return;
     let accountFromRu = '90107430600220100601';
     let accountFrom$ = '90107430600220100602';
     let accountFromEur = '90107430600220100603';
